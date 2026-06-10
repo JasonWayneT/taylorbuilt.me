@@ -33,8 +33,6 @@ export default function Resume() {
             <span className="text-gray-300">|</span>
             <a href="mailto:jason.wayne.t@gmail.com" className="hover:text-primary">jason.wayne.t@gmail.com</a>
             <span className="text-gray-300">|</span>
-            <span>760-317-8264</span>
-            <span className="text-gray-300">|</span>
             <a href="https://linkedin.com/in/jasonwaynetaylor" className="hover:text-primary">linkedin.com/in/jasonwaynetaylor</a>
           </div>
         </header>

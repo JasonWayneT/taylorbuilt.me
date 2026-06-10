@@ -1,8 +1,8 @@
-# taylormade.me
+# taylorbuilt.me
 
 > Jason Taylor's product management portfolio — case studies, work history, and resume for a systems-minded PM specializing in legacy platform stabilization, data integrity, and migration strategy.
 
-Live at **[taylormade.me](https://taylormade.me)**
+Live at **[taylorbuilt.me](https://taylorbuilt.me)**
 
 ---
 
@@ -22,7 +22,7 @@ A portfolio site built to give hiring managers and recruiters a fast read on who
 |---|---|
 | **Phase** | Production |
 | **Stability** | Live and maintained |
-| **URL** | [taylormade.me](https://taylormade.me) |
+| **URL** | [taylorbuilt.me](https://taylorbuilt.me) |
 | **Last updated** | June 2026 |
 
 ---
@@ -44,8 +44,8 @@ A portfolio site built to give hiring managers and recruiters a fast read on who
 ## Running Locally
 
 ```bash
-git clone https://github.com/JasonWayneT/taylormade.me.git
-cd taylormade.me
+git clone https://github.com/JasonWayneT/taylorbuilt.me.git
+cd taylorbuilt.me
 npm install
 npm run dev
 ```

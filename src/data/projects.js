@@ -45,6 +45,30 @@ export const projects = [
     learnings: ["Deterministic gate filtering vastly outperforms AI evaluation at the top of the funnel.", "Local DB architectures provide incredible speed and privacy for sensitive personal data."]
   },
   {
+    id: "leafletpdf",
+    title: "Leaflet PDF",
+    summary: "A local AI pipeline that transforms raw non-fiction content into structured, designed reading artifacts — because raw notes don't teach, designed documents do.",
+    role: "Product Lead & Designer",
+    type: "Personal AI Tool",
+    image: "/images/leafletpdf.png",
+    tags: ["AI Pipeline", "Learning Design", "MCP", "TypeScript"],
+    liveUrl: "",
+    context: "Most articles and notes fail to stick because they're formatted for writing, not reading. I wanted a tool that would take any piece of content and restructure it using proven learning design patterns — BLUF, jargon translation, facts-to-implications, mental buckets — and output it as a typeset document I could actually read and retain.",
+    goals: [
+      "Build an end-to-end AI pipeline from raw text to print-ready PDF",
+      "Apply structured learning techniques automatically based on content type",
+      "Design a visual system that treats reading as a first-class experience",
+      "Run entirely on a Claude subscription — no separate API key required"
+    ],
+    approach: "Designed a multi-stage pipeline: claim extraction → technique selection → structured transformation → validation → Playwright PDF render. The technique selector applies rules-based logic (word count, jargon density, causal language patterns) to decide which sections to generate. The renderer uses a full typographic design system — Archivo Black headings, IBM Plex Mono chrome, Source Serif 4 body — across two themes: Orbital Light and Orbital Night. The MCP server delegates AI inference to the host Claude subscription, eliminating the need for a paid API key.",
+    results: "Turned any markdown or text file into a structured, multi-section PDF in under two minutes. The pipeline reliably extracts core claims, selects the right learning formats, and renders them in a consistent visual system across two themes.",
+    learnings: [
+      "Learning design is a product problem — the format of information determines how well it's retained.",
+      "Visual systems compound: a consistent type scale, color token set, and layout rhythm make every output feel intentional rather than generated.",
+      "MCP sampling unlocks powerful AI workflows without requiring users to manage separate API credentials."
+    ]
+  },
+  {
     id: "kinbridge",
     title: "KinBridge: AI Companion for Seniors",
     summary: "A heartfelt AI platform for senior care, bridging gaps with health monitoring, daily companionship, and a secure 'Last Words' legacy vault.",

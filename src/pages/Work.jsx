@@ -190,6 +190,30 @@ export default function Work() {
             </div>
           </div>
 
+          {/* Leaflet PDF */}
+          <div className="col-span-12 group mb-8">
+            <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">
+              <div className="w-48 h-32 md:w-64 md:h-40 bg-gray-900 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
+                <img src="/images/leafletpdf.png" alt="Leaflet PDF design system" className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
+              </div>
+              <div className="flex-1">
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-0.5 bg-green-50 text-green-700 text-[10px] font-bold uppercase tracking-widest rounded">AI Pipeline</span>
+                  <span className="px-2 py-0.5 bg-blue-50 text-blue-700 text-[10px] font-bold uppercase tracking-widest rounded">Learning Design</span>
+                  <span className="px-2 py-0.5 bg-yellow-50 text-yellow-700 text-[10px] font-bold uppercase tracking-widest rounded">MCP</span>
+                </div>
+                <h3 className="font-h2 text-h3 text-text-primary mb-4">Leaflet PDF</h3>
+                <p className="font-body-lg text-body-lg text-text-secondary mb-8 max-w-3xl">
+                  An AI pipeline that transforms raw non-fiction content into structured, typeset reading artifacts. Extracts claims, selects learning formats (BLUF, jargon translation, facts-to-implications, mental buckets), and renders to PDF using a full typographic design system — no API key required.
+                </p>
+                <Link to="/case-study/leafletpdf" className="bg-primary text-on-primary px-6 py-3 rounded-xl font-manrope font-bold inline-flex items-center gap-2 hover:bg-accent-hover transition-colors text-decoration-none text-sm">
+                  Explore Lab Project
+                  <span className="material-symbols-outlined text-sm">science</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* KinBridge */}
           <div className="col-span-12 group">
             <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">

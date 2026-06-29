@@ -74,7 +74,7 @@ export const projects = [
     summary: "A self-hosted newsletter intelligence briefing that reads your Gmail, synthesizes content with a local LLM, and delivers a structured MP3 audio file every morning.",
     role: "Product Lead & Architect",
     type: "AI & Utility Lab",
-    image: "/images/lede.png",
+    image: "/images/lede.svg",
     tags: ["AI Pipeline", "Local LLM", "TTS", "Python", "FastAPI"],
     liveUrl: "https://github.com/JasonWayneT/Lede",
     context: "Newsletter inboxes are full of signal buried in noise. The problem isn't access to information — it's the daily cost of processing it. Lede is a personal briefing system that does the reading for you and hands you a structured, audio-ready digest before you open your laptop.",

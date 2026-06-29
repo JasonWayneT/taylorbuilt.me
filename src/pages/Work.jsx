@@ -218,7 +218,7 @@ export default function Work() {
           <div className="col-span-12 group">
             <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">
               <div className="w-48 h-32 md:w-64 md:h-40 bg-stone-100 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
-                <img src="/images/lede.png" alt="Lede briefing dashboard" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                <img src="/images/lede.svg" alt="Lede briefing dashboard" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               </div>
               <div className="flex-1">
                 <div className="flex flex-wrap gap-2 mb-4">

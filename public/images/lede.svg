@@ -1,0 +1,67 @@
+<svg width="100%" viewBox="0 0 680 400" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Lede project thumbnail</title>
+  <desc>A designed card thumbnail for the Lede newsletter briefing project</desc>
+
+  <rect width="680" height="400" fill="#1C1917"/>
+
+  <rect x="40" y="44" width="68" height="22" rx="4" fill="#292524"/>
+  <text x="74" y="59" text-anchor="middle" font-family="monospace" font-size="11" fill="#A8A29E" font-weight="500">LEDE</text>
+
+  <text x="40" y="118" font-family="Georgia, serif" font-size="42" fill="#FAFAF9" font-weight="700">Your briefing,</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="42" fill="#E7622A">delivered.</text>
+
+  <text x="40" y="208" font-family="system-ui, sans-serif" font-size="14" fill="#78716C">Gmail → local LLM → structured MP3 · no cloud spend</text>
+
+  <line x1="40" y1="232" x2="640" y2="232" stroke="#292524" stroke-width="1"/>
+
+  <g font-family="monospace" font-size="12" fill="#57534E">
+    <text x="40"  y="258">Ingest</text>
+    <text x="92"  y="258" fill="#44403C">→</text>
+    <text x="108" y="258">Extract</text>
+    <text x="168" y="258" fill="#44403C">→</text>
+    <text x="184" y="258">Embed</text>
+    <text x="238" y="258" fill="#44403C">→</text>
+    <text x="254" y="258">Cluster</text>
+    <text x="314" y="258" fill="#44403C">→</text>
+    <text x="330" y="258">Select</text>
+    <text x="384" y="258" fill="#44403C">→</text>
+    <text x="400" y="258">Frame</text>
+    <text x="450" y="258" fill="#44403C">→</text>
+    <text x="466" y="258">Draft</text>
+    <text x="508" y="258" fill="#44403C">→</text>
+    <text x="524" y="258">TTS</text>
+  </g>
+
+  <rect x="40"  y="292" width="120" height="52" rx="8" fill="#292524"/>
+  <text x="100" y="314" text-anchor="middle" font-family="system-ui" font-size="22" fill="#E7622A" font-weight="600">10</text>
+  <text x="100" y="333" text-anchor="middle" font-family="system-ui" font-size="11" fill="#78716C">pipeline stages</text>
+
+  <rect x="176" y="292" width="120" height="52" rx="8" fill="#292524"/>
+  <text x="236" y="314" text-anchor="middle" font-family="system-ui" font-size="22" fill="#E7622A" font-weight="600">0</text>
+  <text x="236" y="333" text-anchor="middle" font-family="system-ui" font-size="11" fill="#78716C">cloud spend</text>
+
+  <rect x="312" y="292" width="120" height="52" rx="8" fill="#292524"/>
+  <text x="372" y="314" text-anchor="middle" font-family="system-ui" font-size="22" fill="#E7622A" font-weight="600">MP3</text>
+  <text x="372" y="333" text-anchor="middle" font-family="system-ui" font-size="11" fill="#78716C">audio output</text>
+
+  <g fill="#E7622A" opacity="0.15">
+    <rect x="512" y="302" width="4" height="12" rx="2"/>
+    <rect x="520" y="296" width="4" height="24" rx="2"/>
+    <rect x="528" y="300" width="4" height="16" rx="2"/>
+    <rect x="536" y="292" width="4" height="32" rx="2"/>
+    <rect x="544" y="298" width="4" height="20" rx="2"/>
+    <rect x="552" y="294" width="4" height="28" rx="2"/>
+    <rect x="560" y="302" width="4" height="12" rx="2"/>
+    <rect x="568" y="296" width="4" height="24" rx="2"/>
+    <rect x="576" y="300" width="4" height="16" rx="2"/>
+    <rect x="584" y="304" width="4" height="8" rx="2"/>
+    <rect x="592" y="293" width="4" height="30" rx="2"/>
+    <rect x="600" y="298" width="4" height="20" rx="2"/>
+    <rect x="608" y="302" width="4" height="12" rx="2"/>
+    <rect x="616" y="295" width="4" height="26" rx="2"/>
+    <rect x="624" y="299" width="4" height="18" rx="2"/>
+    <rect x="632" y="303" width="4" height="10" rx="2"/>
+  </g>
+
+  <text x="40" y="375" font-family="system-ui" font-size="12" fill="#44403C">Self-hosted · FastAPI · Kokoro TTS · Ollama · Gmail OAuth</text>
+</svg>

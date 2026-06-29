@@ -33,7 +33,7 @@ A portfolio site built to give hiring managers and recruiters a fast read on who
 |---|---|
 | `/` | Hero + positioning, key metrics, featured projects |
 | `/work` | Project cards with role, problem, and outcome |
-| `/work/:id` | Full case study — context, approach, outcome, learnings |
+| `/case-study/:id` | Full case study — context, approach, outcome, learnings |
 | `/work-history` | Full employment history in narrative form |
 | `/resume` | Printable resume view |
 | `/about` | Background and approach |
@@ -71,7 +71,7 @@ Opens at `http://localhost:5173`.
 
 The design system was defined first — typography, color tokens, component patterns — then content was written before any component code. Case studies were written as product narratives (problem → approach → outcome → learnings) rather than feature lists. The positioning ("systems-minded PM") was decided based on what's consistently true across all my work, not what sounds most general.
 
-The site is deployed on Vercel with a staging branch for previewing changes before they go live.
+The site is deployed on Vercel, which auto-deploys on every push to `main`.
 
 ---
 

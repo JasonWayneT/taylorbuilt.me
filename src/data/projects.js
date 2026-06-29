@@ -69,6 +69,30 @@ export const projects = [
     ]
   },
   {
+    id: "lede",
+    title: "Lede",
+    summary: "A self-hosted newsletter intelligence briefing that reads your Gmail, synthesizes content with a local LLM, and delivers a structured MP3 audio file every morning.",
+    role: "Product Lead & Architect",
+    type: "AI & Utility Lab",
+    image: "/images/lede.png",
+    tags: ["AI Pipeline", "Local LLM", "TTS", "Python", "FastAPI"],
+    liveUrl: "https://github.com/JasonWayneT/Lede",
+    context: "Newsletter inboxes are full of signal buried in noise. The problem isn't access to information — it's the daily cost of processing it. Lede is a personal briefing system that does the reading for you and hands you a structured, audio-ready digest before you open your laptop.",
+    goals: [
+      "Build a 10-stage pipeline from Gmail ingest to MP3 audio with no cloud dependencies",
+      "Run entirely on a local LLM via Ollama — no API key required",
+      "Deliver a structured briefing as both a readable document and a listenable audio file",
+      "Ship a polished web UI for scheduling, settings, and archive browsing"
+    ],
+    approach: "Designed a stateful HandoffPacket pipeline: Gmail ingest → text extraction → embedding → clustering → LLM selection → framing → drafting → TTS synthesis → assembly → QA gate. Each stage serializes its output to JSON artifacts so the pipeline is fully inspectable and resumable. Used Kokoro for local neural TTS with a 10-voice picker (American/British, male/female). The FastAPI web UI handles OAuth, scheduling, and a full archive with audio playback.",
+    results: "Runs end-to-end on a consumer laptop with no cloud spend beyond Gmail OAuth. Produces a structured briefing with section summaries and a 13-minute MP3 audio file from a real newsletter inbox on first run.",
+    learnings: [
+      "Pipeline observability is a product feature — serialized artifacts and a stage-by-stage UI make debugging tractable.",
+      "Local LLMs are viable for summarization tasks but require careful prompt engineering to produce clean structured output.",
+      "Audio delivery changes the product entirely — it turns a reading task into a commute-friendly briefing."
+    ]
+  },
+  {
     id: "kinbridge",
     title: "KinBridge: AI Companion for Seniors",
     summary: "A heartfelt AI platform for senior care, bridging gaps with health monitoring, daily companionship, and a secure 'Last Words' legacy vault.",

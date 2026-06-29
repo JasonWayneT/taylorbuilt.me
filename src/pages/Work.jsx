@@ -28,7 +28,7 @@ export default function Work() {
           <div className="col-span-12 lg:col-span-8 group">
             <div className="bg-surface border border-border-subtle rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col">
               <div className="aspect-video bg-surface-container overflow-hidden">
-                 <img src="/images/bellwether.png" alt="Bellwether Data Flow Integration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                 <img src="/images/cision.svg" alt="Bellwether Data Flow Integration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-stack-lg flex-1">
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -72,7 +72,7 @@ export default function Work() {
           <div className="col-span-12 lg:col-span-4 group">
             <div className="bg-surface border border-border-subtle rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col">
                 <div className="aspect-video bg-surface-container overflow-hidden">
-                  <img src="/images/migration.png" alt="Migration Tooling Visualization" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src="/images/cision-migration.svg" alt="Migration Tooling Visualization" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
               <div className="p-stack-lg flex-1">
                 <div className="flex flex-wrap gap-2 mb-4">

@@ -141,28 +141,28 @@ export default function Home() {
             </div>
           </div>
 
-          {/* KinBridge Card */}
+          {/* Lede Card */}
           <div className="group relative bg-surface border border-border-subtle hover:border-transparent rounded-[2.5rem] overflow-hidden hover:shadow-2xl transition-all duration-500">
             <div className="absolute top-0 right-0 p-8">
-              <span className="px-4 py-2 bg-surface-container-high text-text-primary text-[10px] font-black uppercase tracking-[0.2em] rounded-full border border-border-subtle">AI Platform</span>
+              <span className="px-4 py-2 bg-surface-container-high text-text-primary text-[10px] font-black uppercase tracking-[0.2em] rounded-full border border-border-subtle">AI Pipeline</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-12">
               <div className="md:col-span-5 bg-surface-container-low flex items-center justify-center min-h-[300px] overflow-hidden">
-                <img src="/images/kinbridge.png" alt="KinBridge" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src="/images/lede.svg" alt="Lede" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="md:col-span-7 p-12 flex flex-col justify-center">
                 <div className="flex items-center gap-3 mb-6">
-                  <span className="px-3 py-1 bg-surface-container text-text-secondary text-xs font-bold rounded uppercase tracking-wider">Senior Care</span>
-                  <span className="px-3 py-1 bg-surface-container text-text-secondary text-xs font-bold rounded uppercase tracking-wider">Social Impact</span>
+                  <span className="px-3 py-1 bg-surface-container text-text-secondary text-xs font-bold rounded uppercase tracking-wider">Local LLM</span>
+                  <span className="px-3 py-1 bg-surface-container text-text-secondary text-xs font-bold rounded uppercase tracking-wider">TTS</span>
                 </div>
-                <h3 className="font-h1 text-h2 mb-4 group-hover:text-primary transition-colors">KinBridge</h3>
+                <h3 className="font-h1 text-h2 mb-4 group-hover:text-primary transition-colors">Lede</h3>
                 <p className="font-body-lg text-text-secondary mb-8 leading-relaxed">
-                  A voice messaging and letter generation pipeline for end-of-life communication. Built with ElevenLabs for voice synthesis and an LLM layer for generating meaningful letters.
+                  A self-hosted newsletter intelligence briefing. Reads your Gmail, runs a 10-stage local LLM pipeline, and delivers a structured MP3 audio briefing — no cloud spend, no API key required.
                 </p>
                 <div className="flex items-center gap-6">
-                  <Link to="/case-study/kinbridge" className="bg-surface-container-high text-text-primary border border-border-subtle px-8 py-4 rounded-xl font-manrope font-bold flex items-center gap-2 hover:bg-surface-dim transition-all active:scale-95 text-decoration-none">
-                    Explore AI Companion
-                    <span className="material-symbols-outlined text-sm">auto_awesome</span>
+                  <Link to="/case-study/lede" className="bg-surface-container-high text-text-primary border border-border-subtle px-8 py-4 rounded-xl font-manrope font-bold flex items-center gap-2 hover:bg-surface-dim transition-all active:scale-95 text-decoration-none">
+                    Explore Lab Project
+                    <span className="material-symbols-outlined text-sm">podcasts</span>
                   </Link>
                 </div>
               </div>

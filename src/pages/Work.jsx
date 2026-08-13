@@ -156,17 +156,38 @@ export default function Work() {
         </div>
       </section>
 
-      {/* Section 3: AI & Automation Lab */}
+      {/* Section 3: AI-Assisted Work */}
       <section className="mb-24">
-        <div className="flex items-center justify-between mb-12">
-          <h2 className="font-h2 text-h2 text-text-primary flex items-center gap-4">
-            <span className="w-12 h-px bg-green-500"></span>
-            AI & Automation Lab
-          </h2>
-          <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full uppercase tracking-widest">Independent Projects</span>
-        </div>
-        
+        <h2 className="font-h2 text-h2 text-text-primary mb-12 flex items-center gap-4">
+          <span className="w-12 h-px bg-green-500"></span>
+          AI-Assisted Work
+        </h2>
+
         <div className="grid grid-cols-12 gap-gutter">
+          {/* Archy */}
+          <div className="col-span-12 group mb-8">
+            <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">
+              <div className="w-48 h-32 md:w-64 md:h-40 bg-gray-50 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
+                <img src="/images/archy.svg" alt="Archy migration onboarding prototype" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+              </div>
+              <div className="flex-1">
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-0.5 bg-blue-50 text-blue-700 text-[10px] font-bold uppercase tracking-widest rounded">Product Strategy</span>
+                  <span className="px-2 py-0.5 bg-green-50 text-green-700 text-[10px] font-bold uppercase tracking-widest rounded">AI-Assisted</span>
+                  <span className="px-2 py-0.5 bg-purple-50 text-purple-700 text-[10px] font-bold uppercase tracking-widest rounded">Interactive Prototype</span>
+                </div>
+                <h3 className="font-h2 text-h3 text-text-primary mb-4">Archy Migration Onboarding — A Concept Case Study</h3>
+                <p className="font-body-lg text-body-lg text-text-secondary mb-8 max-w-3xl">
+                  A working prototype of the onboarding experience Archy's Data Migration PM job description asks for, built from public information before any interview.
+                </p>
+                <Link to="/case-study/archy" className="bg-primary text-on-primary px-6 py-3 rounded-xl font-manrope font-bold inline-flex items-center gap-2 hover:bg-accent-hover transition-colors text-decoration-none text-sm">
+                  View Case Study
+                  <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* JobAgent */}
           <div className="col-span-12 group mb-8">
             <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">

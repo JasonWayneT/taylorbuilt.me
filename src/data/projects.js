@@ -93,6 +93,29 @@ export const projects = [
     ]
   },
   {
+    id: "archy",
+    title: "Archy Migration Onboarding — A Concept Case Study",
+    summary: "A working prototype of the migration onboarding experience Archy's Data Migration PM job description asks for, built from public information before any interview.",
+    role: "Product Manager Candidate",
+    type: "Speculative Case Study — Built Pre-Interview",
+    image: "/images/archy.svg",
+    tags: ["Product Strategy", "AI-Assisted", "Interactive Prototype", "Onboarding UX"],
+    liveUrl: "/demos/archy-migration-onboarding.html",
+    context: "Archy's JD asks for a PM to own the onboarding experience for dental practices moving their full patient record history off legacy on-prem servers onto Archy's cloud platform. I don't have access to Archy's actual systems or roadmap, so I built this from the public JD, Archy's own marketing, and third-party reviews to show how I'd approach the problem rather than just describe it.",
+    goals: [
+      "Show my thinking with a working prototype instead of another resume bullet",
+      "Design around the three questions an office manager coordinating the switch is actually asking: are we ready, is it working right now, can we trust what moved",
+      "Use AI as a working partner the way the JD itself asks for — research synthesis, drafting, and building the interactive prototype, with me owning every product call"
+    ],
+    approach: "I started with a one-pager grounding the business model in Archy's public marketing and reviews: who they sell to, what practices are actually afraid of in a platform switch, and why a bad migration is a trust problem before it's a data problem. From there I designed a three-stage flow — Readiness Checklist, Migration Tracker, Launch Confidence — and made one deliberate call: insurance and payer continuity gets its own tracked lane instead of folding into a generic progress bar, because a claims gap hits a practice's cash flow directly. I used Claude Code to build the flow as a clickable HTML prototype rather than static slides, so the checklist gating, live tracker, and go/no-go signal are all things you can actually interact with.",
+    results: "Produced a clickable, three-stage prototype — a gated readiness checklist, a live migration tracker with per-category status, and a go/no-go launch signal — plus the underlying business analysis behind it, all built and ready before a single conversation with Archy.",
+    learnings: [
+      "AI collaboration moves fastest when I make the segmentation and prioritization calls myself and hand the AI the execution: research synthesis, drafting, and interactive prototyping.",
+      "Insurance and payer continuity can't be folded into a generic progress bar — a claims gap is a cash-flow hit, so it earns its own tracked lane, not a checkbox.",
+      "A clickable prototype makes a stronger case in an application than a written case study alone. It's the difference between describing the thinking and showing it."
+    ]
+  },
+  {
     id: "kinbridge",
     title: "KinBridge: AI Companion for Seniors",
     summary: "A heartfelt AI platform for senior care, bridging gaps with health monitoring, daily companionship, and a secure 'Last Words' legacy vault.",

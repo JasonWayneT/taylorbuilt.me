@@ -2,46 +2,47 @@
   <title>Archy migration onboarding case study thumbnail</title>
   <desc>A designed card thumbnail for the Archy migration onboarding case study</desc>
 
-  <rect width="680" height="400" fill="#14181d"/>
+  <rect width="680" height="400" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="678" height="398" fill="none" stroke="#E5E7EB" stroke-width="2"/>
 
-  <rect x="40" y="44" width="146" height="22" rx="4" fill="#20262e"/>
-  <text x="113" y="59" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#9aa3ad" font-weight="500" letter-spacing="0.06em">NOT A BUILT PRODUCT</text>
+  <rect x="40" y="40" width="146" height="22" rx="4" fill="#F3F4F6"/>
+  <text x="113" y="55" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#667085" font-weight="500" letter-spacing="0.06em">NOT A BUILT PRODUCT</text>
 
-  <text x="40" y="118" font-family="Georgia, serif" font-size="38" fill="#e7eaee" font-weight="700">Archy migration</text>
-  <text x="40" y="164" font-family="Georgia, serif" font-size="38" fill="#6fb2cf" font-weight="700">onboarding.</text>
+  <text x="40" y="114" font-family="Georgia, serif" font-size="38" fill="#111827" font-weight="700">Archy migration</text>
+  <text x="40" y="160" font-family="Georgia, serif" font-size="38" fill="#2a4dd7" font-weight="700">onboarding.</text>
 
-  <text x="40" y="202" font-family="system-ui, sans-serif" font-size="14" fill="#9aa3ad">Built from the public JD · not Archy's real systems or roadmap</text>
+  <text x="40" y="198" font-family="system-ui, sans-serif" font-size="14" fill="#667085">Built from the public JD · not Archy's real systems or roadmap</text>
 
-  <line x1="40" y1="226" x2="640" y2="226" stroke="#3a424b" stroke-width="1"/>
+  <line x1="40" y1="222" x2="640" y2="222" stroke="#E5E7EB" stroke-width="1"/>
 
-  <g font-family="monospace" font-size="12" fill="#9aa3ad">
-    <text x="40" y="252">Readiness</text>
-    <text x="128" y="252" fill="#4a535e">→</text>
-    <text x="146" y="252">Migration Tracker</text>
-    <text x="284" y="252" fill="#4a535e">→</text>
-    <text x="302" y="252">Launch Confidence</text>
+  <g font-family="monospace" font-size="12" fill="#667085">
+    <text x="40" y="248">Readiness</text>
+    <text x="128" y="248" fill="#9CA3AF">→</text>
+    <text x="146" y="248">Migration Tracker</text>
+    <text x="284" y="248" fill="#9CA3AF">→</text>
+    <text x="302" y="248">Launch Confidence</text>
   </g>
 
-  <rect x="40"  y="286" width="120" height="52" rx="8" fill="#20262e"/>
-  <text x="100" y="308" text-anchor="middle" font-family="system-ui" font-size="22" fill="#6fb2cf" font-weight="600">3</text>
-  <text x="100" y="327" text-anchor="middle" font-family="system-ui" font-size="11" fill="#9aa3ad">stage prototype</text>
+  <rect x="40"  y="282" width="120" height="52" rx="8" fill="#F7F8FA" stroke="#E5E7EB"/>
+  <text x="100" y="304" text-anchor="middle" font-family="system-ui" font-size="22" fill="#2a4dd7" font-weight="600">3</text>
+  <text x="100" y="323" text-anchor="middle" font-family="system-ui" font-size="11" fill="#667085">stage prototype</text>
 
-  <rect x="176" y="286" width="140" height="52" rx="8" fill="#20262e"/>
-  <text x="246" y="308" text-anchor="middle" font-family="system-ui" font-size="22" fill="#6fb2cf" font-weight="600">Click</text>
-  <text x="246" y="327" text-anchor="middle" font-family="system-ui" font-size="11" fill="#9aa3ad">not slides</text>
+  <rect x="176" y="282" width="140" height="52" rx="8" fill="#F7F8FA" stroke="#E5E7EB"/>
+  <text x="246" y="304" text-anchor="middle" font-family="system-ui" font-size="22" fill="#2a4dd7" font-weight="600">Click</text>
+  <text x="246" y="323" text-anchor="middle" font-family="system-ui" font-size="11" fill="#667085">not slides</text>
 
-  <rect x="332" y="286" width="150" height="52" rx="8" fill="#20262e"/>
-  <text x="407" y="308" text-anchor="middle" font-family="system-ui" font-size="22" fill="#6fb2cf" font-weight="600">Public</text>
-  <text x="407" y="327" text-anchor="middle" font-family="system-ui" font-size="11" fill="#9aa3ad">info only</text>
+  <rect x="332" y="282" width="150" height="52" rx="8" fill="#F7F8FA" stroke="#E5E7EB"/>
+  <text x="407" y="304" text-anchor="middle" font-family="system-ui" font-size="22" fill="#2a4dd7" font-weight="600">Public</text>
+  <text x="407" y="323" text-anchor="middle" font-family="system-ui" font-size="11" fill="#667085">info only</text>
 
   <g>
-    <rect x="512" y="322" width="128" height="7" rx="2" fill="#20262e"/>
-    <rect x="512" y="322" width="128" height="7" rx="2" fill="#6fbe8b"/>
-    <rect x="512" y="308" width="128" height="7" rx="2" fill="#20262e"/>
-    <rect x="512" y="308" width="105" height="7" rx="2" fill="#6fbe8b"/>
-    <rect x="512" y="294" width="128" height="7" rx="2" fill="#20262e"/>
-    <rect x="512" y="294" width="53" height="7" rx="2" fill="#e0a344"/>
+    <rect x="512" y="318" width="128" height="7" rx="2" fill="#E5E7EB"/>
+    <rect x="512" y="318" width="128" height="7" rx="2" fill="#16a34a"/>
+    <rect x="512" y="304" width="128" height="7" rx="2" fill="#E5E7EB"/>
+    <rect x="512" y="304" width="105" height="7" rx="2" fill="#16a34a"/>
+    <rect x="512" y="290" width="128" height="7" rx="2" fill="#E5E7EB"/>
+    <rect x="512" y="290" width="53" height="7" rx="2" fill="#d97706"/>
   </g>
 
-  <text x="40" y="375" font-family="system-ui" font-size="12" fill="#6d7681">Product Manager, Data Migration application · Jason Taylor · Claude Code prototype</text>
+  <text x="40" y="371" font-family="system-ui" font-size="12" fill="#9CA3AF">Product Manager, Data Migration application · Jason Taylor · Claude Code prototype</text>
 </svg>

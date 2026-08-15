@@ -27,7 +27,7 @@ export default function Work() {
           {/* Featured: Bellwether (Large) */}
           <div className="col-span-12 lg:col-span-8 group">
             <div className="bg-surface border border-border-subtle rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col">
-              <div className="aspect-video bg-surface-container overflow-hidden">
+              <div className="aspect-video bg-surface-container overflow-hidden border border-border-subtle">
                  <img src="/images/cision.svg" alt="Bellwether Data Flow Integration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-stack-lg flex-1">
@@ -71,7 +71,7 @@ export default function Work() {
           {/* Side Card: Migration Tooling */}
           <div className="col-span-12 lg:col-span-4 group">
             <div className="bg-surface border border-border-subtle rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col">
-                <div className="aspect-video bg-surface-container overflow-hidden">
+                <div className="aspect-video bg-surface-container overflow-hidden border border-border-subtle">
                   <img src="/images/cision-migration.svg" alt="Migration Tooling Visualization" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
               <div className="p-stack-lg flex-1">
@@ -167,7 +167,7 @@ export default function Work() {
           {/* Archy */}
           <div className="col-span-12 group mb-8">
             <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">
-              <div className="w-48 h-32 md:w-64 md:h-40 bg-gray-50 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
+              <div className="w-48 h-32 md:w-64 md:h-40 bg-gray-50 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden border border-border-subtle">
                 <img src="/images/archy.svg" alt="Archy migration onboarding prototype" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               </div>
               <div className="flex-1">
@@ -191,8 +191,8 @@ export default function Work() {
           {/* JobAgent */}
           <div className="col-span-12 group mb-8">
             <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">
-              <div className="w-48 h-32 md:w-64 md:h-40 bg-green-50 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
-                <img src="/images/jobagent.png" alt="Applyr Pipeline UI" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+              <div className="w-48 h-32 md:w-64 md:h-40 bg-green-50 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden border border-border-subtle">
+                <img src="/images/jobagent.png" alt="Applyr Pipeline UI" className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500" />
               </div>
               <div className="flex-1">
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -214,7 +214,7 @@ export default function Work() {
           {/* Leaflet PDF */}
           <div className="col-span-12 group mb-8">
             <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">
-              <div className="w-48 h-32 md:w-64 md:h-40 bg-gray-900 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
+              <div className="w-48 h-32 md:w-64 md:h-40 bg-gray-900 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden border border-border-subtle">
                 <img src="/images/leafletpdf.png" alt="Leaflet PDF design system" className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" />
               </div>
               <div className="flex-1">
@@ -238,7 +238,7 @@ export default function Work() {
           {/* Lede */}
           <div className="col-span-12 group">
             <div className="bg-surface border border-border-subtle rounded-2xl p-10 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row gap-12 items-center">
-              <div className="w-48 h-32 md:w-64 md:h-40 bg-stone-100 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
+              <div className="w-48 h-32 md:w-64 md:h-40 bg-stone-100 rounded-2xl flex items-center justify-center shrink-0 shadow-inner overflow-hidden border border-border-subtle">
                 <img src="/images/lede.svg" alt="Lede briefing dashboard" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               </div>
               <div className="flex-1">
